@@ -38,4 +38,5 @@ function formatBytes(bytes, decimals = 2) {
 		document.querySelector('#network-number').style.marginBottom = "0px";
 		document.querySelector('.network-header').innerHTML = document.querySelector('.network-header').innerHTML + "<p style='margin-top:0;'>IX Peering Capacity <strong id='peering-capacity'>" + _f + "</strong></p>";
 	}
+        console.log('[ipc-plugin] calculated peering capacity (inital page load).');
 })();
